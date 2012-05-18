@@ -36,6 +36,10 @@ end menu_click_recurse
 on volume_up()
 	if application "PandoraJam" is running then
 		menu_click({"PandoraJam", "Controls", "Volume Up"})
+		menu_click({"PandoraJam", "Controls", "Volume Up"})
+		menu_click({"PandoraJam", "Controls", "Volume Up"})
+		menu_click({"PandoraJam", "Controls", "Volume Up"})
+		menu_click({"PandoraJam", "Controls", "Volume Up"})
 	end if
 end volume_up
 
